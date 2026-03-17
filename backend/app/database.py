@@ -5,7 +5,7 @@ from enum import Enum as PyEnum
 
 from sqlalchemy import (
     Column, String, Float, Integer, BigInteger, DateTime,
-    Enum, Index, UniqueConstraint, ForeignKey, Text, JSON,
+    Enum, Index, UniqueConstraint, ForeignKey, JSON,
 )
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship

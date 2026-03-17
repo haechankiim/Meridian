@@ -1,7 +1,5 @@
 """OHLCV data cleaner — normalization, validation, and gap filling."""
 
-from typing import Optional
-
 import numpy as np
 import pandas as pd
 
