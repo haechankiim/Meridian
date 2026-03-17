@@ -44,6 +44,7 @@ jobs:
       - name: Test
         env:
           MERIDIAN_DATABASE_URL: postgresql+asyncpg://meridian:meridian@localhost:5432/meridian_test
+          PYTHONPATH: ${{ github.workspace }}
         run: pytest backend/tests/ -v
 
   frontend:
