@@ -46,5 +46,3 @@ docker-compose.override.yml
 
 # Local dev helpers
 .meridian-dev/
-
-settings.local.json
