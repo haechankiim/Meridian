@@ -47,8 +47,4 @@ docker-compose.override.yml
 # Local dev helpers
 .meridian-dev/
 
-# Private AI / agent context
-AGENTS.md
-CLAUDE.md
-.claude/
 settings.local.json
