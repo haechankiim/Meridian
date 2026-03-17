@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.venv311/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+*.csv
+*.parquet
+*.h5
+
+# ML artifacts
+*.pt
+*.pth
+*.pkl
+*.joblib
+models/artifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Local dev helpers
+.meridian-dev/
+
+# Private AI / agent context
+AGENTS.md
+CLAUDE.md
+.claude/
+settings.local.json

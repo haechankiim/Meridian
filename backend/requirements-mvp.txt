@@ -1,0 +1,31 @@
+# Meridian backend MVP dependencies
+# Use this file when you want to run the current FastAPI/data/backtest slice
+# without the heavyweight ML stack.
+
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+websockets==12.0
+pydantic==2.9.0
+pydantic-settings==2.4.0
+
+# Data providers and processing
+yfinance>=1.2.0
+aiohttp==3.10.0
+pandas==2.2.0
+numpy==1.26.0
+scipy==1.14.0
+
+# Database
+sqlalchemy==2.0.32
+asyncpg==0.29.0
+alembic==1.13.0
+greenlet==3.1.1
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.27.0
+
+# Test tooling
+pytest==8.4.2
+pytest-asyncio==0.24.0

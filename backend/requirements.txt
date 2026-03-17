@@ -1,0 +1,45 @@
+# Meridian Backend Dependencies
+
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+websockets==12.0
+pydantic==2.9.0
+pydantic-settings==2.4.0
+
+# Data providers
+yfinance>=1.2.0
+aiohttp==3.10.0
+
+# Data processing
+pandas==2.2.0
+numpy==1.26.0
+scipy==1.14.0
+
+# Technical analysis
+ta-lib==0.4.32  # Requires system-level TA-Lib installation
+pandas-ta==0.3.14b  # Pure Python fallback if TA-Lib unavailable
+
+# ML / Deep Learning
+torch==2.4.0
+pytorch-lightning==2.4.0
+stable-baselines3==2.3.0
+scikit-learn==1.5.0
+shap==0.46.0
+
+# Database
+sqlalchemy==2.0.32
+asyncpg==0.29.0
+alembic==1.13.0
+greenlet==3.1.1
+
+# Cache & async tasks
+redis==5.0.0
+celery==5.4.0
+
+# Utilities
+python-dotenv==1.0.1
+loguru==0.7.2
+httpx==0.27.0
+pytest==8.4.2
+pytest-asyncio==0.24.0
