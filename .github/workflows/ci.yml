@@ -34,8 +34,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r backend/requirements.txt
-          pip install pytest pytest-asyncio ruff
+          pip install --upgrade pip
+          pip install -r backend/requirements-mvp.txt
+          pip install ruff
 
       - name: Lint
         run: ruff check backend/
